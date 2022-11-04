@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 6rem;
+}
+
+.nav-bar {
+  display: flex;
+  margin-left: 6rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+form {
+  margin-left: 5rem;
+  padding: 1rem;
+}
