@@ -1,21 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore: initialize project with components
-This project will lay foundations for your Bookstore website. You will create the React part of the app. You will also set up routing using React Router.
+# Bookstore: add reducers and actions
+In this step, I configured the Redux Store and wrote actions and reducer for adding and removing books. 
 
 
 
  ## Learning objectives
-- Use React Router.
-- Use React components.
+- Understand the concept of state management.
+- Use store, actions, and reducers in React.
 
 ## Built With
 
-- CSS, JavaScript, React
+- CSS, JavaScript, React, Redux
 - Gitflow
 - npm
 - babel
 - webpack-dev-server
+- duck pattern
 
 
 
