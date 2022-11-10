@@ -1,9 +1,9 @@
-const CHECK_STATUS = 'bookstore-CMS/categories/CHECK_STATUS';
+const CHECK_STATUS = 'Bookstore-CMS/categories/CHECK_STATUS';
 
 const initialState = [];
 
 export const checkStatus = () => ({
-  type: 'CHECK_STATUS',
+  type: CHECK_STATUS,
 });
 
 const categoriesReducer = (state = initialState, action) => {
