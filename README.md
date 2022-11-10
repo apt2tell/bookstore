@@ -1,13 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore: add reducers and actions
-In this step, I configured the Redux Store and wrote actions and reducer for adding and removing books. 
+# Bookstore: Use Redux in React components.
+In this step I  used Redux store to display books. I  also added some UI elements to your components and make them dispatch actions.
 
 
 
  ## Learning objectives
 - Understand the concept of state management.
-- Use store, actions, and reducers in React.
+- Use store, actions and reducers in React.
+- Connect React and Redux.
 
 ## Built With
 
