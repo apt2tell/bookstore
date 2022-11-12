@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore: connect to API
-In this project, I connected React-Redux application to an existing API to create and remove books in a remote server.
+# Bookstore: styling
+In this project, I styled the App using Zeplin as a collaboration tool.
 
 
 
@@ -9,7 +9,7 @@ In this project, I connected React-Redux application to an existing API to creat
 - Understand the concept of state management.
 - Use store, actions and reducers in React.
 - Connect React and Redux.
-- Connect an existing API via Redux and use the data to display something in a UI.
+- Apply React best practices and language style guides in code.
 
 ## Built With
 
