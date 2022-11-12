@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bookstore-CMS/static/css/main.e38bfbe6.css",
+    "main.js": "/Bookstore-CMS/static/js/main.b0ac8038.js",
+    "static/js/787.08f3454f.chunk.js": "/Bookstore-CMS/static/js/787.08f3454f.chunk.js",
+    "index.html": "/Bookstore-CMS/index.html",
+    "main.e38bfbe6.css.map": "/Bookstore-CMS/static/css/main.e38bfbe6.css.map",
+    "main.b0ac8038.js.map": "/Bookstore-CMS/static/js/main.b0ac8038.js.map",
+    "787.08f3454f.chunk.js.map": "/Bookstore-CMS/static/js/787.08f3454f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e38bfbe6.css",
+    "static/js/main.b0ac8038.js"
+  ]
+}
