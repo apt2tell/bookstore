@@ -21,7 +21,7 @@ In this project, I styled the App using Zeplin as a collaboration tool.
 - duck pattern
 - API
 
-
+# Getting Started
 
 ### To launch the project locally:
 
