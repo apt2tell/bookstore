@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
@@ -12,6 +10,7 @@ body {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
   font-weight: 900;
   color: #0290ff;
   margin-top: 0.7rem;
@@ -56,6 +55,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+  padding-right: 35rem;
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
 }
@@ -195,6 +195,20 @@ input {
   font-family: 'Roboto Slab', serif;
   font-size: 1rem;
   margin-top: 0.4rem;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 0.7rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f3f3f3;
+  border-radius: 50%;
+  color: #0290ff;
 }
 
 .check-status button {
