@@ -21,6 +21,9 @@ In this project, I built a React-Redux API based Bookstore. This allows users to
 - duck pattern
 - API
 
+## Live Demo
+> You can view [Live Demo](https://okechukwu-muokwugwo.github.io/)
+
 # Getting Started
 
 ### To launch the project locally:
