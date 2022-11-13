@@ -12,6 +12,7 @@ const Books = () => {
   // Use effect for getBook dispatcher
   useEffect(() => {
     dispatch(getBooks());
+    // eslint-disable-next-line
   }, []);
 
   return (
