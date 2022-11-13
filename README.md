@@ -22,7 +22,7 @@ In this project, I built a React-Redux API based Bookstore. This allows users to
 - API
 
 ## Live Demo
-> You can view [Live Demo](https://okechukwu-muokwugwo.github.io/)
+> You can view [Live Demo](https://okechukwu-muokwugwo.github.io/Bookstore-CMS)
 
 # Getting Started
 
