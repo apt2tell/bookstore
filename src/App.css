@@ -8,9 +8,14 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
+.App {
+  width: 100%;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.875rem;
+
+  /* font-size: 1.875rem; */
   color: #0290ff;
   margin-top: 0.7rem;
 }
@@ -50,13 +55,23 @@ h2 {
   border: solid 1px #e8e8e8;
 }
 
+ul {
+  padding-left: 0;
+}
+
 .nav-bar ul {
   display: flex;
-  justify-content: flex-end;
   gap: 1rem;
-  padding-right: 30rem;
+  padding-left: 10px;
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
+}
+
+.user-icon {
+  padding-top: 1rem;
+  margin-left: 40%;
+  font-size: 1.4rem;
+  color: #0290ff;
 }
 
 a {
@@ -196,20 +211,6 @@ input {
   margin-top: 0.4rem;
 }
 
-.user-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-top: 0.7rem;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #f3f3f3;
-  border-radius: 50%;
-  color: #0290ff;
-}
-
 .check-status button {
   width: 11.5rem;
   height: 2.813rem;
@@ -225,4 +226,25 @@ input {
 .status {
   font-family: 'Roboto Slab', serif;
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .App {
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+
+  .nav-bar {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper {
+    padding: 1rem;
+  }
+
+  .content {
+    margin: 0;
+    padding: 1rem;
+  }
 }
