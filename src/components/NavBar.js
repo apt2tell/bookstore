@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaUser } from 'react-icons/fa';
+import { FaRegUserCircle } from 'react-icons/fa';
 import '../App.css';
 
 const NavBar = () => {
@@ -30,9 +30,9 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <div className="user-icon">
-          <FaUser />
-        </div>
+        <FaRegUserCircle
+          className="user-icon"
+        />
       </nav>
     </>
   );
