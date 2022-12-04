@@ -13,7 +13,7 @@ const Books = () => {
   useEffect(() => {
     dispatch(getBooks());
     // eslint-disable-next-line
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
