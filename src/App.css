@@ -230,21 +230,42 @@ input {
 /* Smaller screen */
 @media (max-width: 768px) {
   .App {
-    box-sizing: border-box;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .nav-bar {
-    margin: 0;
-    padding: 0;
+    display: none;
   }
 
+  /* .container {
+    display: flex;
+  } */
+
   .wrapper {
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
   }
 
   .content {
     margin: 0;
     padding: 1rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .form-input{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-title, .author-name{
+    width: 70%;
   }
 }
