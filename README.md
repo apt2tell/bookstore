@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Bookstore App
-In this project, I built a React-Redux API based Bookstore. This allows users to add and delete books frogm the API. I styled the App using Zeplin as a collaboration tool.
+In this project, I built a React-Redux API based Bookstore. This allows users to add and delete books from the API. I styled the App using Zeplin as a collaboration tool.
 
 
 
