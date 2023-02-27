@@ -53,8 +53,20 @@ h2 {
   border: solid 1px #e8e8e8;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 ul {
   padding-left: 0;
+}
+
+.pop-menu {
+  display: none;
+}
+
+.hamburger-icon {
+  display: none;
 }
 
 .nav-bar ul {
@@ -120,7 +132,7 @@ button {
   padding: 0.801rem 1.188rem 0.886rem 1.375rem;
   border-radius: 3px;
   background-color: #0290ff;
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: #fff;
 }
 
@@ -230,21 +242,71 @@ input {
 /* Smaller screen */
 @media (max-width: 768px) {
   .App {
-    box-sizing: border-box;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .nav-bar {
-    margin: 0;
-    padding: 0;
+    display: none;
+  }
+
+  .pop-menu {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 62%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+    font-size: 25px;
+  }
+
+  .user-icon {
+    font-size: 1.4rem;
+    color: #0290ff;
   }
 
   .wrapper {
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
   }
 
   .content {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 1rem;
+    width: 90%;
+  }
+
+  .chapter {
+    padding-left: 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-title,
+  .author-name {
+    width: 70%;
   }
 }

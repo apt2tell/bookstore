@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { checkStatus } from '../redux/categories/categories';
+import PopMenu from './Hamburger';
 
 const Categories = () => {
   const dispatch = useDispatch();
@@ -12,10 +13,13 @@ const Categories = () => {
   };
 
   return (
-    <div className="check-status">
-      <button onClick={handleCheckStatus} type="button">Check Status</button>
-      <span className="status">{status}</span>
-    </div>
+    <>
+      <PopMenu />
+      <div className="check-status">
+        <button onClick={handleCheckStatus} type="button">Check Status</button>
+        <span className="status">{status}</span>
+      </div>
+    </>
   );
 };
 
