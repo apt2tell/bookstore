@@ -53,8 +53,20 @@ h2 {
   border: solid 1px #e8e8e8;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 ul {
   padding-left: 0;
+}
+
+.pop-menu {
+  display: none;
+}
+
+.hamburger-icon {
+  display: none;
 }
 
 .nav-bar ul {
@@ -238,9 +250,31 @@ input {
     display: none;
   }
 
-  /* .container {
-    display: flex;
-  } */
+  .pop-menu {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 62%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+
+  .hamburger-icon {
+    display: block;
+    font-size: 25px;
+  }
+
+  .user-icon {
+    font-size: 1.4rem;
+    color: #0290ff;
+  }
 
   .wrapper {
     display: flex;
@@ -249,8 +283,15 @@ input {
   }
 
   .content {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 1rem;
+    width: 90%;
+  }
+
+  .chapter {
+    padding-left: 0;
   }
 
   form {
