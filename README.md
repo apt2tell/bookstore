@@ -1,13 +1,11 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Bookstore App
-In this project, I built a React-Redux API based Bookstore. This allows users to add and delete books from the API. I styled the App using Zeplin as a collaboration tool.
+In this project, I built a React-Redux API-based Bookstore. This allows users to add and delete books from the API. I styled the App using Zeplin as a collaboration tool.
 
 
 
  ## Learning objectives
 - Understand the concept of state management.
-- Use store, actions and reducers in React.
+- Use store, actions, and reducers in React.
 - Connect React and Redux.
 - Apply React best practices and language style guides in code.
 
@@ -17,12 +15,12 @@ In this project, I built a React-Redux API based Bookstore. This allows users to
 - Gitflow
 - npm
 - babel
-- webpack-dev-server
+- webpack
 - duck pattern
 - API
 
 ## Live Demo
-> You can view [Live Demo](https://okechukwu-muokwugwo.github.io/Bookstore-CMS)
+> You can view [Live Demo]()
 
 # Getting Started
 
@@ -31,11 +29,13 @@ In this project, I built a React-Redux API based Bookstore. This allows users to
 #### Step 1:
 - Clone this repository in your local machine terminal:
 
-git clone <code>https://github.com/Okechukwu-muokwugwo/bookstore-CMS.git</code>
+git clone <code>https://github.com/Okechukwu-muokwugwo/bookstore.git</code>
 
 #### Step 2:
+- Then run <code>npm install</code> on a terminal to install dependencies.
 
-- Open with <code>npm start</code> on a terminal.
+  ### Step 3:
+- run <code>npm start</code>
 
 ## Author
 
@@ -48,7 +48,7 @@ git clone <code>https://github.com/Okechukwu-muokwugwo/bookstore-CMS.git</code>
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 
 ## Show your support
