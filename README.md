@@ -34,7 +34,7 @@ git clone <code>https://github.com/Okechukwu-muokwugwo/bookstore.git</code>
 #### Step 2:
 - Then run <code>npm install</code> on a terminal to install dependencies.
 
-  ### Step 3:
+#### Step 3:
 - run <code>npm start</code>
 
 ## Author
