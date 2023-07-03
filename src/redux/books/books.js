@@ -13,6 +13,7 @@ const getBooksAPI = async () => {
     },
   });
   const booksArray = await resp.json();
+  console.log();
   const books = Object.keys(booksArray).map((id) => ({
     id,
     title: booksArray[id][0].title,

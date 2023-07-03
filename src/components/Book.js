@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import '../App.css';
 import { useDispatch } from 'react-redux';
 import { getBooks, removeBook } from '../redux/books/books';
-import PopMenu from './Hamburger';
+import Hamburger from './Hamburger';
 
 const Book = (props) => {
   const { id, title, author } = props;
@@ -17,7 +17,7 @@ const Book = (props) => {
 
   return (
     <div className="wrapper">
-      <PopMenu />
+      <Hamburger />
       <div className="content">
         <div className="title">
           <h2>{title}</h2>

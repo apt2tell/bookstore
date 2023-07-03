@@ -20,7 +20,7 @@ const NavBar = () => {
   return (
     <>
       <nav className="nav-bar">
-        <h1>Bookstore CMS</h1>
+        <h1>Bookstore</h1>
         <ul>
           {links.map((link) => (
             <li key={link.id}>

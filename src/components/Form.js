@@ -20,6 +20,7 @@ const Form = () => {
     };
     dispatch(addBook(book));
     dispatch(getBooks());
+    e.target.reset();
   };
 
   // setTitle handler
