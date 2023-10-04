@@ -29,7 +29,7 @@ In this project, I built a React-Redux API-based Bookstore. This allows users to
 #### Step 1:
 - Clone this repository in your local machine terminal:
 
-git clone <code>https://github.com/Okechukwu-muokwugwo/bookstore.git</code>
+git clone <code>https://github.com/apt2tell/bookstore.git</code>
 
 #### Step 2:
 - Then run <code>npm install</code> on a terminal to install dependencies.
@@ -41,9 +41,8 @@ git clone <code>https://github.com/Okechukwu-muokwugwo/bookstore.git</code>
 
 👤 Okechukwu Muokwugwo
 
-- GitHub: [GitHub](https://github.com/Okechukwu-muokwugwo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okeimuokwugwo/)
-- Twitter: [Twitter](https://twitter.com/excel4eva)
+- GitHub: [GitHub](https://github.com/apt2tell)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/apt2tell/)
 
 
 ## 🤝 Contributing
@@ -59,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/Okechukwu-muokwugwo/Bookstore-CMS/blob/API-react-redux/LICENSE.md) licensed.
+This project is [MIT](https://github.com/apt2tell/Bookstore-CMS/blob/API-react-redux/LICENSE.md) licensed.
